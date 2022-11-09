@@ -1,0 +1,230 @@
+{
+  "page_home": {
+    "home": "الصفحه الرئيسية",
+    "order_statistics": "إحصائيات الطلبات ",
+    "the_level_of_the_type_request": "على مستوى نوع الطلب ",
+    "total_number_of_orders": "إجمالي عدد الطلبات",
+    "total_number_of_current_orders": "إجمالي عدد الطلبات الجارية ",
+    "total_number_of_pending_orders": "إجمالي عدد الطلبات المعلقة ",
+    "total_number_of_completed_orders": "إجمالي عدد الطلبات المكتملة ",
+    "reading_statistics": "إحصائيات القراءات",
+    "at_the_company_level": " على مستوى الشركه",
+    "total_number_of_readings": "إجمالي عدد القراءات",
+    "total_number_of_accepted_readings": "إجمالي عدد القراءات المقبوله",
+    "total_number_of_rejected_readings": "إجمالي عدد القراءات المرفوضه",
+    "total_number_of_pending_readings": "إجمالي عدد القراءات المعلقة ",
+    "cancel": "إلغاء"
+  },
+  "queries_page": {
+    "queries": "الاستعلامات",
+    "page_not_found": "الصفحه غير موجوده "
+  },
+  "system_management": {
+    "page_departments": {
+      "departments": "الإدارات ",
+      "add_department": "إضافة إدارة",
+      "name": "الاسم",
+      "executions": "الإجراءات",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "page_treasury": {
+      "treasuries": "الخزينة",
+      "add_treasuries": "إضافة خزينه",
+      "treasury_number": "رقم الخزنه",
+      "description": "الوصف",
+      "procedures": "الإجراءات",
+      "there_are_no_data": "لايوجد بيانات"
+    },
+    "page_users": {
+      "user_history": "سجل المستخدمين",
+      "add_new_user": "إضافة مستخدم جديد",
+      "code": "الكود",
+      "branch_number": "رقم الفرع",
+      "procedures": "الإجراءات",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "page_types_of_requests": {
+      "types_of_requests": "أنواع الطلبات",
+      "add_new_type": "إضافة نوع  جديد"
+    },
+    "page_add_new_type": {
+      "page_request_data_and_instructions": {
+        "request_data_and_instructions": "بيانات الطلب والإرشادات",
+        "fields": "الحقول",
+        "follow_up_the_client": "متابعة العميل",
+        "request_data": "بيانات الطلب ",
+        "name": "الاسم",
+        "code": "الكود",
+        "group / classification": "المجموعه / التصنيف",
+        "duration": "المده",
+        "day / hour": "يوم / ساعه ",
+        "choose_icon": "اختيار أيقونه ",
+        "description": "الوصف",
+        "active": "نشط",
+        "using_account_number": "برقم الحساب",
+        "show_in_the_gate": "عرض في البوابة",
+        "publishing": "النشر",
+        "back": "رجوع",
+        "next": "التالي",
+        "instructions": "الإرشادات",
+        "write_down_the_instructions_provided_in_the_request": "اكتب الإرشادات المقدمة في الطلب"
+      },
+      "page_fields": {
+        "request_data_and_instructions": "بيانات الطلب والإرشادات",
+        "fields": "الحقول",
+        "follow_up_the_client": "متابعة العميل",
+        "search_for_field": "بحث عن حقل",
+        "back": "رجوع",
+        "next": "التالي",
+        "form_data": "بيانات النموذج",
+        "view_the_form": "عرض النموذج",
+        "add_group": "إضافة مجموعه",
+        "group_name": "اسم المجموعه"
+      },
+      "page_follow_up_the_client": {
+        "request_data_and_instructions": "بيانات الطلب والإرشادات",
+        "fields": "الحقول",
+        "follow_up_the_client": "متابعة العميل",
+        "department_or_stages": "الإدارات أو المراحل",
+        "default_action": "إجراء افتراضي",
+        "start_action": "إجراء بدايه ",
+        "end_action": "إجراء نهاية",
+        "reverse_action": "إجراء معكوس",
+        "autmated_action": "إجراء آلي",
+        "external_action": "إجراء خارجي",
+        "add_in/out": "إضافة مدخل / مخرج",
+        "full_screen_view": "عرض ملئ الشاشه",
+        "select_all": "تحديد الكل",
+        "print": "طباعه",
+        "back": "رجوع",
+        "save_request": "حفظ الطلب"
+      }
+    },
+    "page_order_planning": {
+      "order_planning": "تخطيط الطلبات",
+      "all_planning": "جميع التخطيطات",
+      "create_new": "إنشاء جديد",
+      "name": "الاسم",
+      "request_type": "نوع الطلب",
+      "start": "بداية",
+      "end": "انتهاء",
+      "repetition": "تكرار",
+      "last_updated": "أخر تحديث"
+    },
+    "page_types_of_expenses": {
+      "types_of_expenses": "أنواع المصروفات",
+      "add_new_expenses_type": "إضافة نوع مصروف جديد",
+      "name": "الاسم",
+      "code": "الكود",
+      "is_delete": "Is Delete",
+      "executions": "الإجراءات",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "page_classification_of_requests": {
+      "classification_of_requests": "تصنيف الطلبات",
+      "add_classification": "إضافة تصنيف",
+      "name": "الاسم",
+      "appear_in_navigation_bar": "ظهور في شريط التنقل",
+      "executions": "الإجراءات",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "page_introductory_data": {
+      "introductory_data": "البيانات التعريفيه",
+      "add_introductory_data": "إضافة بيان تعريفي",
+      "name": "الاسم",
+      "executions": "الإجراءات",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "page_data_sources": {
+      "data_sources": "مصادر البيانات",
+      "configuration": "التكوين",
+      "add": "إضافه",
+      "name": "الاسم",
+      "executions": "الإجراءات"
+    },
+    "page_structuring_data_sources": {
+      "data_sourse_definitions": "تعريفات مصادر البيانات ",
+      "description": "الوصف",
+      "relationship": "العلاقه",
+      "executions": "الإجراءات",
+      "edit": "تعديل",
+      "delete": "حذف"
+    }
+  },
+  "pagePayment": {
+    "sessions": "الجلسات",
+    "open_new_session": "فتح جلسه جديده",
+    "complete_the_previous_session": "استكمال الجلسه السابقه"
+  },
+  "page_notifications": {
+    "notifications": "الإشعارات",
+    "add_notification": "إضافة إشعار",
+    "subject": "الموضوع",
+    "content": "المحتوى",
+    "executions": "الإجراءات",
+    "no_data": "لايوجد بيانات"
+  },
+  "page_reports": {
+    "reading_reports": "تقارير القراءات",
+    "more_details": "تفاصيل اكثر",
+    "order_reports": "تقارير الطلبات",
+    "more_Details": "تفاصيل أكثر"
+  },
+  "page_reading_reports": {
+    "reading_reports": "تقارير القراءات",
+    "company": "الشركه",
+    "reading_input_date": "تاريخ إدخال القراءة",
+    "download_reports": " تحميل التقارير",
+    "print": "طباعة",
+    "no_data": "لايوجد بيانات "
+  },
+  "page_requests_reports": {
+    "company": "الشركه",
+    "choose_the_type_of_request": "اختر نوع الطلب",
+    "choose_the_state": "اختر الحاله",
+    "client_account_number": "رقم حساب العميل",
+    "from_the_date_of_creation": "من تاريخ الإنشاء",
+    "to_the_date_of_creation": "إلى تاريخ الإنشاء",
+    "from_the_date_of_execution": "من تاريخ الإجراء",
+    "to_the_date_of_execution": "إلى تاريخ الإجراء",
+    "closed": "مغلق",
+    "pending": "معلق",
+    "in_case_of_payment": "في حالة الدفع",
+    "download_reports": "تحميل التقارير",
+    "print": "طباعه",
+    "no_data": " لايوجد بيانات "
+  },
+  "page_requests": {
+    "type_requests": "أنواع الطلبات",
+    "show_only_the_required": "عرض المطلوب فقط ",
+    "search_for_request_type": "بحث عن نوع طلب",
+    "all": "الكل",
+    "complaints": "الشكاوى",
+    "customers_service": "خدمة العملاء",
+    "licenses": "التراخيص",
+    "prints_registration": "تسجيل مطابع",
+    "technical_advice": "استشارات فنية",
+    "trouple_ticket": "Trouple Ticket",
+    "number_of_current_requests": "عدد الطلبات الحالية",
+    "company": "الشركه",
+    "back": "رجوع",
+    "show_the_cancelled_and_refused_requests": "عرض الطلبات المغلقه و الملغاه",
+    "print": "طباعة",
+    "number_of_request": "رقم الطلب",
+    "date_of_the_last_execution": "تاريخ أخر إجراء",
+    "date_of_request": "تاريخ الطلب",
+    "account_number": "رقم الحساب",
+    "client_name": "اسم العميل",
+    "state": "الحاله",
+    "execution": "الإجراء",
+    "no_data": "لايوجد بيانات"
+  },
+  "page_activity": {
+    "associated_systems": "الأنشطه المرتبطه "
+  }
+}

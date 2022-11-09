@@ -1,0 +1,230 @@
+{
+  "page_home": {
+    "home": "Home",
+    "order_statistics": "Order Statistics",
+    "the_level_of_the_type_request": "The Level Of The Type Request",
+    "total_number_of_orders": "Total Number Of Orders",
+    "total_number_of_current_orders": "Total Number Of Current Orders",
+    "total_number_of_pending_orders": "Total Number Of Pending Orders ",
+    "total_number_of_completed_orders": "Total Number Of Completed Orders ",
+    "reading_statistics": "Reading Statistics",
+    "at_the_company_level": "At The Company Level",
+    "total_number_of_readings": "Total Number Of Readings",
+    "total_number_of_accepted_readings": "Total Number Of Accepted Readings",
+    "total_number_of_rejected_readings": "Total Number Of Rejected Readings",
+    "total_number_of_pending_readings": "Total Number Of Pending Readings ",
+    "cancel": "Cancel"
+  },
+  "queries_page": {
+    "queries": " Queries",
+    "page_not_found": "Page Not Found"
+  },
+  "system_management": {
+    "page_departments": {
+      "department": "Department",
+      "add_department": "Add Department",
+      "name": "Name",
+      "executions": "Executions",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "page_treasury": {
+      "treasuries": "Treasuries",
+      "add_treasuries": "Add Treasuries",
+      "treasury_number": "Treasury Number",
+      "description": "Description",
+      "procedures": "Procedures",
+      "there_are_no_data": "There are no Data ."
+    },
+    "page_users": {
+      "user_history": "User History",
+      "add_new_user": "Add New User",
+      "code": "Code",
+      "branch_number": "Branch Number",
+      "procedures": "Procedures",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "page_types_of_requests": {
+      "types_of_requests": "Types Of Requests",
+      "add_new_type": "Add New Type"
+    },
+    "page_add_new_type": {
+      "page_request_data_and_instructions": {
+        "request_data_and_instructions": "Request Data and Instructions",
+        "fields": "Fields",
+        "follow_up_the_client": " Follow Up The Client",
+        "request_data": "Request Data  ",
+        "name": "Name",
+        "code": "Code",
+        "group / classification": "Group / Classification",
+        "duration": "Duration",
+        "day / hour": "Day / Hour",
+        "choose_icon": "Choose Icon ",
+        "description": "Description",
+        "active": "Active",
+        "using_account_number": "Using Account Number ",
+        "show_in_the_gate": "Show in The Gate",
+        "publishing": "Publishing",
+        "back": "Back",
+        "next": "Next",
+        "instructions": "Instructions",
+        "write_down_the_instructions_provided_in_the_request": " Write down The Instructions provided in The Request"
+      },
+      "page_fields": {
+        "request_data_and_instructions": "Request data and Instructions",
+        "fields": "Fields",
+        "follow_up_the_client": "Follow up The Client ",
+        "search_for_field": "Search for Field",
+        "back": "Back",
+        "next": "Next",
+        "form_data": "Form Data ",
+        "view_the_form": "View The Form ",
+        "add_group": " Add Group",
+        "group_name": "Group Name "
+      },
+      "page_follow_up_the_client": {
+        "request_data_and_instructions": "Request data and Instructions",
+        "fields": "Fields",
+        "follow_up_the_client": "Follow up The Client",
+        "department_or_stages": " Department or Stages ",
+        "default_action": "Default Action ",
+        "start_action": "Start Action  ",
+        "end_action": "End Action ",
+        "reverse_action": "Reverse Action ",
+        "autmated_action": "Autmated Action ",
+        "external_action": " External Action",
+        "add_in/out": " Add In / Out ",
+        "full_screen_view": " Full Screen View ",
+        "select_all": "Select All",
+        "print": "Print",
+        "back": "Back",
+        "save_request": "Save Request "
+      }
+    },
+    "page_order_planning": {
+      "order_planning": "Order Planning",
+      "all_planning": "All Planning",
+      "create_new": "Create New",
+      "name": "Name",
+      "request_type": "Request Type",
+      "start": "Start",
+      "end": "End",
+      "repetition": "Repetition",
+      "last_updated": "Last Updated"
+    },
+    "page_types_of_expenses": {
+      "types_of_expenses": "Types of Expenses ",
+      "add_new_expenses_type": "Add new Expenses type",
+      "name": "Name",
+      "code": "code",
+      "is_delete": "Is Delete",
+      "executions": "Executions",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "page_classification_of_requests": {
+      "classification_of_requests": "Classification Of Requests",
+      "add_classification": "Add Classification",
+      "name": "Name",
+      "appear_in_navigation_bar": "Appear In Navigation Bar",
+      "executions": "Executions",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "page_introductory_data": {
+      "introductory_data": "Introductory Statement",
+      "add_introductory_data": "Add Introductory Statement",
+      "name": "Name",
+      "executions": "Executions",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "page_data_sources": {
+      "data_sources": "Data Sources",
+      "configuration": "Configuration",
+      "add": "Add",
+      "name": "Name",
+      "executions": "Executions"
+    },
+    "page_structuring_data_sources": {
+      "data_sourse_definitions": "Data Sourse Definitions",
+      "description": "Description",
+      "relationship": "Relationship",
+      "executions": "Executions",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "pagePayment": {
+    "sessions": "Sessions",
+    "open_new_session": "Open New Session",
+    "complete_the_previous_session": "Complete The Previous Session"
+  },
+  "page_notifications": {
+    "notifications": "Notifications",
+    "add_notification": "Add Notification",
+    "subject": "Subject",
+    "content": "Content",
+    "executions": "Executions",
+    "no_data": "No Data"
+  },
+  "page_reports": {
+    "reading_reports": "Reading Reports",
+    "more_details": "More Details",
+    "order_reports": "Order Reports",
+    "more_Details": "More Details"
+  },
+  "page_reading_reports": {
+    "reading_reports": "Reading Reports",
+    "company": "Company",
+    "reading_input_date": "Reading input date",
+    "download_reports": "Download Reports",
+    "print": "Print",
+    "no_data": "No Data"
+  },
+  "page_requests_reports": {
+    "company": "Company",
+    "choose_the_type_of_request": "Choose The Type of Request",
+    "choose_the_state": "Choose the state",
+    "client_account_number": "Client account Number",
+    "from_the_date_of_creation": "From The Date of Creation",
+    "to_the_date_of_creation": "To The Date of Creation",
+    "from_the_date_of_execution": "From The Date of Execution",
+    "to_the_date_of_execution": "To The Date of Execution",
+    "closed": "Closed",
+    "pending": "Pending",
+    "in_case_of_payment": "In Case of Payment",
+    "download_reports": "Download Reports",
+    "print": "Print",
+    "no_data": "No Data"
+  },
+  "page_requests": {
+    "type_requests": "Type Requests",
+    "show_only_the_required": "Show Only The Required",
+    "search_for_request_type": "Search For Request Type",
+    "all": "All",
+    "complaints": "Complaints",
+    "customers_service": "Customers Service",
+    "licenses": "Licenses",
+    "prints_registration": "Prints Registration",
+    "technical_advice": "Technical Advice",
+    "trouple_ticket": "Trouple Ticket",
+    "number_of_current_requests": "Number of Current Requests",
+    "company": "Company",
+    "back": "Back",
+    "show_the_cancelled_and_refused_requests": "Show the Cancelled and refused Requests",
+    "print": "Print",
+    "number_of_request": "Number of Request",
+    "date_of_the_last_execution": "Date of the Last Execution",
+    "date_of_request": "Date of Request",
+    "account_number": "Account Number",
+    "client_name": "Client Name",
+    "state": "State",
+    "execution": "Execution",
+    "no_data": "No Data"
+  },
+  "page_activity": {
+    "associated_systems": "Associated Systems"
+  }
+}
