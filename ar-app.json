@@ -2,7 +2,7 @@
   "page_home": {
     "home": "الصفحه الرئيسية",
     "order_statistics": "إحصائيات الطلبات ",
-    "the_level_of_the_type_request": "على مستوى نوع الطلب ",
+    "the_level_of_the_type_app": "على مستوى نوع الطلب ",
     "total_number_of_orders": "إجمالي عدد الطلبات",
     "total_number_of_current_orders": "إجمالي عدد الطلبات الجارية ",
     "total_number_of_pending_orders": "إجمالي عدد الطلبات المعلقة ",
@@ -20,13 +20,25 @@
     "page_not_found": "الصفحه غير موجوده "
   },
   "system_management": {
-    "page_departments": {
-      "departments": "الإدارات ",
-      "add_department": "إضافة إدارة",
-      "name": "الاسم",
-      "executions": "الإجراءات",
-      "edit": "تعديل",
-      "delete": "حذف"
+    "management": {
+      "page_managements": {
+        "managements": "الإدارات ",
+        "add_management": "إضافة إدارة",
+        "name": "الاسم",
+        "executions": "الإجراءات",
+        "edit": "تعديل",
+        "delete": "حذف"
+      },
+      "edit_management": {
+        "edit_management": "تعديل الإدارة ",
+        "management_name": "اسم الإدارة",
+        "client": "العميل",
+        "external_point": "نقطه خارجية",
+        "save": "حفظ",
+        "cancel": "إلغاء",
+        "full_screen": "ملئ الشاشه",
+        "close": "خروج"
+      }
     },
     "page_treasury": {
       "treasuries": "الخزينة",
@@ -36,30 +48,79 @@
       "procedures": "الإجراءات",
       "there_are_no_data": "لايوجد بيانات"
     },
-    "page_users": {
-      "user_history": "سجل المستخدمين",
-      "add_new_user": "إضافة مستخدم جديد",
-      "code": "الكود",
-      "branch_number": "رقم الفرع",
-      "procedures": "الإجراءات",
-      "edit": "تعديل",
-      "delete": "حذف"
-    },
-    "page_types_of_requests": {
-      "types_of_requests": "أنواع الطلبات",
-      "add_new_type": "إضافة نوع  جديد"
-    },
-    "page_add_new_type": {
-      "page_request_data_and_instructions": {
-        "request_data_and_instructions": "بيانات الطلب والإرشادات",
+    "users": {
+      "page_users": {
+        "user_history": "سجل المستخدمين",
+        "add_new_user": "إضافة مستخدم جديد",
+        "code": "الكود",
+        "branch_number": "رقم الفرع",
+        "procedures": "الإجراءات",
+        "edit": "تعديل",
+        "delete": "حذف"
+      },
+      "edit_user": {
+        "user_history": "سجل المستخدمين",
+        "user": "المستخدم",
+        "screens_permissions": "صلاحيات الشاشات",
+        "apps_actions_permissions": "صلاحيات إجراءات الطلبات",
+        "full_screen": "ملئ الشاشه",
+        "close": "خروج",
+        "edit": "تعديل",
+        "cancel": "إلغاء"
+      },
+      "user_page": {
+        "user": "المستخدم",
+        "screens_permissions": "صلاحيات الشاشات",
+        "apps_actions_permissions": "صلاحيات إجراءات الطلبات",
+        "login_name": "(en)اسم الدخول",
+        "username": "اسم المستخدم",
+        "password": "كلمة المرور",
+        "company": "الشركه",
+        "branch": "الفرع",
+        "job_code": "الكود الوظيفي",
+        "active": "نشط"
+      },
+      "screens_permissions_page": {
+        "user": "المستخدم",
+        "screens_permissions": "صلاحيات الشاشات",
+        "apps_actions_permissions": "صلاحيات إجراءات الطلبات",
+        "fees_employee": "موظف القابضه",
+        "system_manager": "مدير النظام ",
+        "treasury": "الخزينه",
+        "applications": "الطلبات",
+        "create": "إنشاء",
+        "edit": "تعديل",
+        "cancel": "إلغاء"
+      },
+      "apps_actions_permissions": {
+        "user": "المستخدم",
+        "screens_permissions": "صلاحيات الشاشات",
+        "apps_actions_permissions": "صلاحيات إجراءات الطلبات",
+        "edit": "تعديل",
+        "cancel": "إلغاء"
+      },
+      "page_types_of_apps": {
+        "types_of_apps": "أنواع الطلبات",
+        "add_new_type": "إضافة نوع  جديد",
+        "edit": "تعديل",
+        "copy": "نسخ",
+        "delete": "حذف"
+      },
+      "page_app_types": {
+        "app_types": "أنواع الطلبات",
+        "all_categoris": "جميع التصنيفات",
+        "add_new_type": "إضافة نوع  جديد"
+      },
+      "app_details": {
+        "app_data_and_instructions": "بيانات الطلب والإرشادات",
         "fields": "الحقول",
-        "follow_up_the_client": "متابعة العميل",
-        "request_data": "بيانات الطلب ",
+        "follow_the_client": "متابعة العميل",
+        "app_data": "بيانات الطلب ",
         "name": "الاسم",
         "code": "الكود",
-        "group / classification": "المجموعه / التصنيف",
+        "group_categories": "المجموعه / التصنيف",
         "duration": "المده",
-        "day / hour": "يوم / ساعه ",
+        "day_hour": "يوم / ساعه ",
         "choose_icon": "اختيار أيقونه ",
         "description": "الوصف",
         "active": "نشط",
@@ -69,10 +130,10 @@
         "back": "رجوع",
         "next": "التالي",
         "instructions": "الإرشادات",
-        "write_down_the_instructions_provided_in_the_request": "اكتب الإرشادات المقدمة في الطلب"
+        "write_the_instructions": "اكتب الإرشادات المقدمة في الطلب"
       },
-      "page_fields": {
-        "request_data_and_instructions": "بيانات الطلب والإرشادات",
+      "app_fields": {
+        "app_data_and_instructions": "بيانات الطلب والإرشادات",
         "fields": "الحقول",
         "follow_up_the_client": "متابعة العميل",
         "search_for_field": "بحث عن حقل",
@@ -81,41 +142,124 @@
         "form_data": "بيانات النموذج",
         "view_the_form": "عرض النموذج",
         "add_group": "إضافة مجموعه",
-        "group_name": "اسم المجموعه"
+        "group_name": "اسم المجموعه",
+        "delete_group": "حذف المجموعه",
+        "delete_field": "حذف الحقل",
+        "field_required": "الحقل مطلوب إدخاله",
+        "connect_with_field": "ربط مع حقل آخر",
+        "client_data": "بيانات العميل",
+        "connect_with_sys": "(Integration)الربط مع أنظمه أخرى",
+        "choose_field": "اختيار الحقل",
+        "connect_field": "ربط الحقل"
       },
-      "page_follow_up_the_client": {
-        "request_data_and_instructions": "بيانات الطلب والإرشادات",
-        "fields": "الحقول",
-        "follow_up_the_client": "متابعة العميل",
-        "department_or_stages": "الإدارات أو المراحل",
-        "default_action": "إجراء افتراضي",
-        "start_action": "إجراء بدايه ",
-        "end_action": "إجراء نهاية",
-        "reverse_action": "إجراء معكوس",
-        "autmated_action": "إجراء آلي",
-        "external_action": "إجراء خارجي",
-        "add_in/out": "إضافة مدخل / مخرج",
-        "full_screen_view": "عرض ملئ الشاشه",
-        "select_all": "تحديد الكل",
-        "print": "طباعه",
-        "back": "رجوع",
-        "save_request": "حفظ الطلب"
+      "client_follow": {
+        "app_workflow": {
+          "app_data_and_instructions": "بيانات الطلب والإرشادات",
+          "fields": "الحقول",
+          "follow_up_the_client": "متابعة العميل",
+          "managements_or_stages": "الإدارات والمراحل ",
+          "default_action": " إجراء افترضي ",
+          "start_action": "إجراء بداية  ",
+          "end_action": "إجراء نهايه ",
+          "reverse_action": "إجراء معكوس ",
+          "autmated_action": "إجراء ألي ",
+          "external_action": "إجراء خارجي",
+          "add_in_out": "إضافة مدخل / مخرج ",
+          "full_screen_view": "عرض ملئ الشاشه",
+          "select_all": "تحديد الكل",
+          "print": "طباعه",
+          "back": "رجوع",
+          "save_app": "حفظ الطلب "
+        },
+        "action": {
+          "edit_action": "تعديل إجراء (إجراء)",
+          "full_screen": " ملئ الشاشه",
+          "exit": "خروج",
+          "action_data": "بيانات الإجراء",
+          "fields": "الحقول",
+          "fees": "المصروفات",
+          "name": "الاسم",
+          "connected_action": "الإجراءات المرتبطه",
+          "duration": "المده",
+          "day_hour": " يوم / ساعه",
+          "appointed_to_follow": "المعين للمتابعه",
+          "appointed_to_work": "المعين للعمل",
+          "external_action": " إجراء خارجي",
+          "module_name": "اسم الموديول",
+          "activity_type": "نوع النشاط",
+          "position": "الوضع",
+          "execution": "تنفيذ",
+          "primary": "ابتدائي",
+          "approval": "اعتماد",
+          "call_data": "استدعاء البيانات ",
+          "by_fees": "بمصروفات",
+          "view_to_gate_client": "عرض لعميل البوابه   ",
+          "action_state": " حالة الإجراء",
+          "default": "افتراضي",
+          "start": "بداية",
+          "end": "نهاية",
+          "action_behavior": "سلوك الإجراء",
+          "reverse": "معكوس",
+          "autmated": "آلي",
+          "save": "حفظ"
+        },
+        "fields": {
+          "edit_action": "تعديل إجراء (إجراء)",
+          "full_screen": " ملئ الشاشه",
+          "exit": "خروج",
+          "action_data": "بيانات الإجراء",
+          "fields": "الحقول",
+          "fees": "المصروفات",
+          "search_for_field": "بحث عن حقل",
+          "form_data": "بيانات النموذج",
+          "show_form": "عرض النموذج",
+          "add_group": "إضافة مجموعه"
+        },
+        "fees": {
+          "edit_action": "تعديل إجراء (إجراء)",
+          "full_screen": " ملئ الشاشه",
+          "exit": "خروج",
+          "action_data": "بيانات الإجراء",
+          "fields": "الحقول",
+          "fees": "المصروفات",
+          "all_fees": "جميع المصروفات",
+          "add_fees": "إضافة مصروف على الإجراء"
+        }
       }
-    },
-    "page_order_planning": {
+    }
+  },
+  "page_order_planning": {
+    "order_planning": {
       "order_planning": "تخطيط الطلبات",
       "all_planning": "جميع التخطيطات",
       "create_new": "إنشاء جديد",
       "name": "الاسم",
-      "request_type": "نوع الطلب",
+      "app_type": "نوع الطلب",
       "start": "بداية",
       "end": "انتهاء",
       "repetition": "تكرار",
       "last_updated": "أخر تحديث"
     },
-    "page_types_of_expenses": {
-      "types_of_expenses": "أنواع المصروفات",
-      "add_new_expenses_type": "إضافة نوع مصروف جديد",
+    "create_new": {
+      "create_new_plan": "إنشاء خطه جديده",
+      "plan_data": "بيانات الخطه",
+      "plan_name": "اسم الخطه",
+      "app_type": "نوع الطلب",
+      "from_period": "من الفتره",
+      "to_period": "إلى الفتره",
+      "number_repeat": "عدد التكرار",
+      "repeat_duration": "مدة التكرار",
+      "filtering": "التصفيه",
+      "comp_num": "رقم الشركة",
+      "value": "القيمة",
+      "add_group": "إضافة مجموعه",
+      "save": "حفظ"
+    }
+  },
+  "page_types_of_fees": {
+    "types_of_fees": {
+      "types_of_fees": "أنواع المصروفات",
+      "add_new_fees_type": "إضافة نوع مصروف جديد",
       "name": "الاسم",
       "code": "الكود",
       "is_delete": "Is Delete",
@@ -123,86 +267,164 @@
       "edit": "تعديل",
       "delete": "حذف"
     },
-    "page_classification_of_requests": {
-      "classification_of_requests": "تصنيف الطلبات",
-      "add_classification": "إضافة تصنيف",
+    "add_new_type": "إضافة نوع  جديد",
+    "full_screen": " ملئ الشاشه",
+    "exit": "خروج",
+    "type": "النوع",
+    "code": "الكود",
+    "value": "القيمة",
+    "save": "حفظ",
+    "cancel": "إلغاء"
+  },
+  "page_category_of_apps": {
+    "category_of_apps": {
+      "category_of_apps": "تصنيف الطلبات",
+      "add_category": "إضافة تصنيف",
       "name": "الاسم",
       "appear_in_navigation_bar": "ظهور في شريط التنقل",
       "executions": "الإجراءات",
       "edit": "تعديل",
       "delete": "حذف"
     },
-    "page_introductory_data": {
-      "introductory_data": "البيانات التعريفيه",
-      "add_introductory_data": "إضافة بيان تعريفي",
+    "add_category": {
+      "add_new_category": " إضافة تصنيف جديد ",
+      "full_screen": " ملئ الشاشه",
+      "exit": "خروج",
+      "category_name": "اسم التصنيف",
+      "save": "حفظ",
+      "cancel": "إلغاء"
+    }
+  },
+  "page_meta_data": {
+    "meta_data": {
+      "meta_data": "البيانات التعريفيه",
+      "add_a_meta_statement": "إضافة بيان تعريفي",
       "name": "الاسم",
       "executions": "الإجراءات",
       "edit": "تعديل",
       "delete": "حذف"
     },
-    "page_data_sources": {
-      "data_sources": "مصادر البيانات",
-      "configuration": "التكوين",
-      "add": "إضافه",
-      "name": "الاسم",
-      "executions": "الإجراءات"
-    },
-    "page_structuring_data_sources": {
+    "add_meta_data": {
+      "add_meta_data": "إضافة بيان تعريفي",
+      "full_screen": " ملئ الشاشه",
+      "exit": "خروج",
+      "field_name": "اسم الحقل ",
+      "type": "النوع",
+      "strategy": "التنسيق",
+      "field_descriptiop": "وصف الحقل",
+      "input_validation": "( Validation )التحقق من صحة الإدخال",
+      "save": "حفظ",
+      "cancel": "إلغاء"
+    }
+  },
+  "page_data_sources": {
+    "data_sources": "مصادر البيانات",
+    "configuration": "التكوين",
+    "add": "إضافه",
+    "name": "الاسم",
+    "executions": "الإجراءات",
+    "edit": "تعديل",
+    "delete": "حذف"
+  },
+  "page_structuring_data_sources": {
+    "structuring_data_sources": {
       "data_sourse_definitions": "تعريفات مصادر البيانات ",
       "description": "الوصف",
       "relationship": "العلاقه",
       "executions": "الإجراءات",
       "edit": "تعديل",
       "delete": "حذف"
+    },
+    "add_new_structure": {
+      "add_structure_of_lists": "إضافة هيكل القوائم",
+      "full_screen": " ملئ الشاشه",
+      "exit": "خروج",
+      "name": "الاسم",
+      "relationship": "العلاقه",
+      "save": "حفظ",
+      "cancel": "إلغاء"
     }
   },
-  "pagePayment": {
-    "sessions": "الجلسات",
-    "open_new_session": "فتح جلسه جديده",
-    "complete_the_previous_session": "استكمال الجلسه السابقه"
+  "page_Payment": {
+    "Payment": {
+      "sessions": "الجلسات",
+      "open_new_session": "فتح جلسه جديده",
+      "complete_the_previous_session": "استكمال الجلسه السابقه"
+    },
+    "new_session": {
+      "open_new_session": "فتح جلسه جديده",
+      "full_screen": " ملئ الشاشه",
+      "exit": "خروج",
+      "choose_the_treasury": "اختارالخزنة",
+      "open_the_session": "فتح الجلسه ",
+      "cancel": "إلغاء"
+    }
   },
   "page_notifications": {
-    "notifications": "الإشعارات",
-    "add_notification": "إضافة إشعار",
-    "subject": "الموضوع",
-    "content": "المحتوى",
-    "executions": "الإجراءات",
-    "no_data": "لايوجد بيانات"
+    "notifications": {
+      "notifications": "الإشعارات",
+      "add_notification": "إضافة إشعار",
+      "subject": "الموضوع",
+      "content": "المحتوى",
+      "executions": "الإجراءات",
+      "no_data": "لايوجد بيانات"
+    },
+    "add_notification": {
+      "add_new_treasury": "إضافة خزنة جديدة",
+      "full_screen": " ملئ الشاشه",
+      "exit": "خروج",
+      "subject": "الموضوع",
+      "content": "المحتوى",
+      "send_by": "الإرسال عن طريق",
+      "email": "الإيميل",
+      "mobile": "المحمول",
+      "messages": "الرسائل",
+      "all": "الكل",
+      "message_validity_period": "فترة فعالية الرساله",
+      "from": "من",
+      "to": "إلى",
+      "date": "التاريخ",
+      "send_to_all": "إرسال للكل",
+      "save": "حفظ",
+      "cancel": "إلغاء"
+    }
   },
   "page_reports": {
-    "reading_reports": "تقارير القراءات",
-    "more_details": "تفاصيل اكثر",
-    "order_reports": "تقارير الطلبات",
-    "more_Details": "تفاصيل أكثر"
+    "page_reports": {
+      "reading_reports": "تقارير القراءات",
+      "more_details": "تفاصيل اكثر",
+      "order_reports": "تقارير الطلبات",
+      "more_Details": "تفاصيل أكثر"
+    },
+    "page_reading_reports": {
+      "reading_reports": "تقارير القراءات",
+      "company": "الشركه",
+      "reading_input_date": "تاريخ إدخال القراءة",
+      "download_reports": " تحميل التقارير",
+      "print": "طباعة",
+      "no_data": "لايوجد بيانات "
+    },
+    "page_apps_reports": {
+      "company": "الشركه",
+      "choose_the_type_of_app": "اختر نوع الطلب",
+      "choose_the_state": "اختر الحاله",
+      "client_account_number": "رقم حساب العميل",
+      "from_the_date_of_creation": "من تاريخ الإنشاء",
+      "to_the_date_of_creation": "إلى تاريخ الإنشاء",
+      "from_the_date_of_execution": "من تاريخ الإجراء",
+      "to_the_date_of_execution": "إلى تاريخ الإجراء",
+      "closed": "مغلق",
+      "pending": "معلق",
+      "in_case_of_payment": "في حالة الدفع",
+      "download_reports": "تحميل التقارير",
+      "print": "طباعه",
+      "no_data": " لايوجد بيانات "
+    }
   },
-  "page_reading_reports": {
-    "reading_reports": "تقارير القراءات",
-    "company": "الشركه",
-    "reading_input_date": "تاريخ إدخال القراءة",
-    "download_reports": " تحميل التقارير",
-    "print": "طباعة",
-    "no_data": "لايوجد بيانات "
-  },
-  "page_requests_reports": {
-    "company": "الشركه",
-    "choose_the_type_of_request": "اختر نوع الطلب",
-    "choose_the_state": "اختر الحاله",
-    "client_account_number": "رقم حساب العميل",
-    "from_the_date_of_creation": "من تاريخ الإنشاء",
-    "to_the_date_of_creation": "إلى تاريخ الإنشاء",
-    "from_the_date_of_execution": "من تاريخ الإجراء",
-    "to_the_date_of_execution": "إلى تاريخ الإجراء",
-    "closed": "مغلق",
-    "pending": "معلق",
-    "in_case_of_payment": "في حالة الدفع",
-    "download_reports": "تحميل التقارير",
-    "print": "طباعه",
-    "no_data": " لايوجد بيانات "
-  },
-  "page_requests": {
-    "type_requests": "أنواع الطلبات",
+  "page_apps": {
+    "type_apps": "أنواع الطلبات",
     "show_only_the_required": "عرض المطلوب فقط ",
-    "search_for_request_type": "بحث عن نوع طلب",
+    "search_for_app_type": "بحث عن نوع طلب",
     "all": "الكل",
     "complaints": "الشكاوى",
     "customers_service": "خدمة العملاء",
@@ -210,14 +432,14 @@
     "prints_registration": "تسجيل مطابع",
     "technical_advice": "استشارات فنية",
     "trouple_ticket": "Trouple Ticket",
-    "number_of_current_requests": "عدد الطلبات الحالية",
+    "number_of_current_apps": "عدد الطلبات الحالية",
     "company": "الشركه",
     "back": "رجوع",
-    "show_the_cancelled_and_refused_requests": "عرض الطلبات المغلقه و الملغاه",
+    "show_the_cancelled_and_refused_apps": "عرض الطلبات المغلقه و الملغاه",
     "print": "طباعة",
-    "number_of_request": "رقم الطلب",
+    "number_of_app": "رقم الطلب",
     "date_of_the_last_execution": "تاريخ أخر إجراء",
-    "date_of_request": "تاريخ الطلب",
+    "date_of_app": "تاريخ الطلب",
     "account_number": "رقم الحساب",
     "client_name": "اسم العميل",
     "state": "الحاله",
@@ -225,6 +447,21 @@
     "no_data": "لايوجد بيانات"
   },
   "page_activity": {
-    "associated_systems": "الأنشطه المرتبطه "
+    "activity": {
+      "associated_systems": " الأنظمة المرتبطه",
+      "show": "عرض"
+    },
+    "show": {
+      "activity_data": " بيانات النشاط",
+      "full_screen": " ملئ الشاشه",
+      "exit": "خروج",
+      "activity_name": " اسم النشاط",
+      "fields": "الحقول",
+      "field_name": " اسم الحقل",
+      "field_type": " نوع الحقل",
+      "required": "مطلوب",
+      "mandatory": "إجباري",
+      "optional": "غير إجباري "
+    }
   }
 }
