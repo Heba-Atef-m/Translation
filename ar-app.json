@@ -501,12 +501,6 @@
     "national_id":"الرقم القومي",
     "action_comment":"تعليق الإجراء",
     "no_comment":"لايوجد تعليق",
-    "actions_history":"سجل الإجراءات ",
-    "stage_client":"المرحله : العميل",
-    "action":"الإجراء",
-    "action_date":"تاريخ الإجراء ",
-    "admin":"المسئول",
-    "customers_service":"خدمة العملاء",
-    "stage_participation":"المرحله : الاشتراكات "
+   
   }
 }
