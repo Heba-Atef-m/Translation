@@ -465,3 +465,44 @@
     }
   }
 }
+
+
+
+
+
+]]]]]]]]]]]]]]]]]]]]]]
+
+  "Application_action"{
+    "appAction":{
+      "app_action":"Application action",
+      "app_data":"Application data",
+      "client_name":"Client name : ",
+      "account_no":"Account number : ",
+      "document_no":"Document number : ",
+      "creation_date":"Creation date : ",
+      "app_no":"Application number",
+      "app":"Application",
+      "status":"Status",
+      "actions":"Actions",
+      "choose_action":"Choose action",
+      "action_comment":"Action Comment",
+      "submit":"Submit",
+      "please_select_action":"Please select action",
+      "implementation_of_the_activity":"Implementation of the activity",
+      "actions_history":"Actions history ",
+      "stage_client":"Stage : Client",
+      "action":"Action",
+      "action_date":"Action date ",
+      "admin":"Admin",
+      "customers_service":"Customers Service",
+      "stage_participation":"Stage : Participation "
+    },
+    "stage_client":{
+      "fields_in_action":"Fields in Action",
+      "basic_group":"Basic group",
+      "national_id":"National id",
+      "action_comment":"Action Comment",
+      "no_comment":"No Comment",
+      
+    }
+  }
